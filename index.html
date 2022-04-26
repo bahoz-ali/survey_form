@@ -13,27 +13,43 @@
     <p id="description">Please fill out this form to join us</p>
 
     <form id="survey-form">
-      <label id="name-label" for="name" >Name:</label>
-      <input type="text" id="name" placeholder="Enter your name" required/>
+      <label id="name-label" for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required />
       <label id="email-label" for="email">Email:</label>
-      <input type="email" id="email" placeholder="Enter your email" required/>
+      <input type="email" id="email" placeholder="Enter your email" required />
       <label id="number-label" for="number">Number:</label>
-      <input  type="number" id="number" placeholder="Enter age" min="10" max="100" >
-    
-      <select id="dropdown">  
-        <option> ---Choose tutorial--- </option>  
-        <option> w3schools </option>  
-        <option> Javatpoint </option>  
-        <option> tutorialspoint </option>  
-        <option> geeksforgeeks </option>  
-        </select>  
-    
-        <input type="radio" id="child" name="age" value="child">
-        <label for="child">17 years or younger</label>
-        <input type="radio" id="adult" name="age" value="adult">
-        <label for="adult">18 - 64</label>
+      <input
+        type="number"
+        id="number"
+        placeholder="Enter age"
+        min="10"
+        max="100"
+      />
 
+      <select id="dropdown">
+        <option>---Choose tutorial---</option>
+        <option>w3schools</option>
+        <option>Javatpoint</option>
+        <option>tutorialspoint</option>
+        <option>geeksforgeeks</option>
+      </select>
 
+      <input type="radio" id="child" name="age" value="child" />
+      <label for="child">17 years or younger</label>
+      <input type="radio" id="adult" name="age" value="adult" />
+      <label for="adult">18 - 64</label>
+
+      <input type="checkbox" name="" value="10" id="" />
+      <input type="checkbox" name="" value="15" id="" />
+      <input type="checkbox" name="" value="20" id="" />
+      <textarea id="txtid" name="txtname" rows="4" cols="50" maxlength="200">
+A nice day is a nice day.
+Lao Tseu
+</textarea
+      >
+
+      <button id="submit" type="submit">Send it</button>
+      
     </form>
 
     <!--
